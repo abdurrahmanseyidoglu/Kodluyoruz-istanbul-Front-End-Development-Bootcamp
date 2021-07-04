@@ -1,0 +1,25 @@
+// div{
+// 	border: red solid 1px;
+// 	margin: 1px;
+// 	padding: 1px;
+// }
+.info-container {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 110px;
+}
+.user-count {
+	// float: right;
+	// padding-left: 20px;
+	// padding-top: 5px;
+}
+.info-card{
+	
+}
+.number{
+	font-size: 2em;
+	font-weight: bolder;
+}

@@ -1,0 +1,37 @@
+// div{
+// 	border: solid 1px red;
+// }
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.left-side{
+align-items: left;
+margin: 50px;
+}
+.right-side{
+align-items: right;
+
+}
+.header-1{
+	margin-bottom: 40px;
+}
+.paragraph-1{
+	margin-bottom: 40px;
+	font-size: 20px;
+
+}
+
+.button3{
+	background-color: #F53855;
+	color: white;
+	border-radius: 10px;
+	width:250px;
+	height: 60px;
+	font-family: Rubik;
+	font-size: 16px;
+	font-style: normal;
+}
+

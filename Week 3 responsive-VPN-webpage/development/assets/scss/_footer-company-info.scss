@@ -1,0 +1,58 @@
+// div{
+// 	border: dashed red 1px;
+// }
+footer{
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: $footer-bcg-color;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding:0 auto;
+	padding-top: 9rem;
+	padding-bottom: 2.5rem;
+	padding-left: 4rem;
+	padding-right: 5rem;
+}
+.company-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-bottom: 6.5rem;
+	line-height: 0px;
+	&__logo{
+		padding-left: 1.7rem;
+		img{
+			width: 11rem;
+		}
+	}
+	&__about{
+		padding-left: 1.7rem;
+		padding-bottom: 1.4rem;
+		p{
+			font-size: 14px;
+			opacity: 0.8;
+			line-height: 1.8em;
+		}
+	}
+	&__social-media{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-content: center;
+		justify-content: center;
+	a{
+		.social-logos{
+			width: 70px;
+		}
+	}
+	}
+	&__copyright{
+		padding-left: 1.7rem;
+		padding-top: 0.8rem;
+		p{
+			font-size: 16px;
+			opacity: 0.3;
+		}
+	}
+}

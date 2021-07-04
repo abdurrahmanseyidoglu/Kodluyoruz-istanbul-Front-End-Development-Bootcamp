@@ -1,0 +1,56 @@
+nav{
+	margin: 50px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.logo{
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
+.sign-in{
+	margin-right: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.nav-menu a{
+	text-decoration: inherit;
+	color: black;
+	padding: 30px;
+	font-size: 20px;
+}
+.button1{
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 18px;
+	align-items: center;
+      text-align: center;
+      width: 150px;
+      height: 45px;
+      background-color:white ;
+      color: black;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+}
+.button2{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 18px;
+	color: red;
+	text-align: center;
+	width: 150px;
+	height: 45px;
+	background-color: white;
+	color:#F53855;
+	outline: none;
+	border: 1px solid #F53855 ;
+	
+	border-radius: 15px;
+}
+
+
+

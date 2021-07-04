@@ -1,0 +1,50 @@
+.container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.subscribe-card{
+	display: flex;
+	flex-wrap: wrap;
+	width: 63rem;
+	height: 12rem;
+	margin: 30px;
+	padding-left: 3rem;
+	position: relative;
+	//left: 6rem;
+	bottom: -8rem;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	border: 1px solid #f8f7f7;
+	box-shadow: -10px 10px 10px 10 #f2f2f2;
+	border-radius: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	&__msg{
+		align-items: center;
+		padding-top: 3rem;
+		width: 22rem;
+		h1{
+			overflow-wrap: break-word;
+		}
+		h6{
+			opacity: 0.7;
+		}
+	}
+	&__btn{
+		position:relative;
+		top: 4em;
+		left: 22em;
+		
+		input[type=submit]{
+			border-radius: 10px;
+			background-color: #F53838;
+			border: 1px solid #F53838;
+			color: white;
+			padding: 15px 50px;
+			text-decoration: none;
+			margin: 4px 2px;
+			cursor: pointer;
+			box-shadow: 0px 10px 35px 0px #F53838;
+		}
+	}
+}

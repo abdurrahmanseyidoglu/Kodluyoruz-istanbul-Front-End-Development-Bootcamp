@@ -1,0 +1,43 @@
+// div{
+// 	border: solid 1px red;
+// }
+.sponsores{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+	
+	&__title{
+		text-align: center;
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	&__description{
+		text-align: center;
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+}
+span{
+	font-weight: bold;
+}
+.sponsores__header{
+	width: 300px;
+}
+.worldmap__image {
+	
+align-items: center;
+}
+.sponsores-logo {
+	display: flex;
+	flex-direction: row;
+	gap: 100px;
+	flex-wrap: wrap;
+	
+}
+.locations{
+	height: 500px;
+}
+
