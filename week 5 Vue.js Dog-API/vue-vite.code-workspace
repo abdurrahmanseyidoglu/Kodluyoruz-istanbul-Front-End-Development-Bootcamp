@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "emmet.includeLanguages": {
+      "vue": "html",
+    },
+    "discord.enabled": true,
+  }
+}
